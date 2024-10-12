@@ -25,8 +25,8 @@ jobs:
             python -m pip install pygbag
             echo "Successfully installed pygbag"
             echo "Attempting to build the game"
-            cd $GITHUB_WORKSPACE/space_invaders
-            python -m pygbag --build space_invaders/main.py
+            cd $GITHUB_WORKSPACE/space_invaders/space_invaders
+            python -m pygbag --build main.py
             mkdir -p build_files/space_invaders
             cp -r space_invaders/space_invaders/build/web/* build_files/space_invaders 
             echo "Successfully build the game and complied to WebAssembly"
