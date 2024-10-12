@@ -1,0 +1,3 @@
+[submodule "space_invaders"]
+	path = space_invaders
+	url = git@github.com:richardbinder/space_invaders.git
